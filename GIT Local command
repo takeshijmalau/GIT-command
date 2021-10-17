@@ -1,0 +1,32 @@
+Command for GIT:
+git (show how to using GIT)
+clear (clear inside of the terminal)
+git --version (showing up version of git and compatible os)
+
+GIT command (Local)
+$ git init (inisialitation git repository on pc)
+$ git add <file(s)> (adding file to the staging area)
+$ git status (Info for repository at the time(new file, changed file, lose file))
+$ git commit (commiting file)
+$ git config (adding configuration to the git)
+$ git branch (making branch)
+$ git help (Info what command do)
+$ pwd (print working directory)
+$ ls (showing list of active directory)
+$ cd <directory name>(change directory)
+$ git rm --cached <file> (removing file from staging area)
+$ git config --global user.name "your username" (Tell git your username)
+$ git config --global user.email "your email" (tell git your email) 
+$ git commit -m "commit_message" (commit adding message to the commit)
+$ git add . "Adding all uncommit file into staging area"
+$ git log "showing all the commit done in active folder"
+$ git log -number "showing specific last "number" commit)
+$ git log -- <file_name>
+$ git checkout <5_first_digit_stringhash> -- <file_name> "Checkout the spesific commit"
+q "quit after see all git commit using $ git log"
+
+3 area on GIT repository:
+working tree (folder for work)
+staging area (Tell GIT that user has done change) $ git add
+History (User already commit) $ git commit
+#GIT will make folder .git for staging area & history
